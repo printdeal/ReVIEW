@@ -1,7 +1,7 @@
 /**
  * jQuery ReVIEW
  * An ultra lightweight jQuery / Zepto plugin for lazy loading elements
- * -
+ * https://github.com/resrcit/ReVIEW
  *
  * Licensed under the MIT license.
  * Copyright 2013 Dominic Fee
