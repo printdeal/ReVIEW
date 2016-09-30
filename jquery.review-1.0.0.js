@@ -29,10 +29,8 @@
                  */
 
                 var $e = $(this),
-                    wo = $w.offset() ? $w.offset().top : 0,
-                    wlo = $w.offset() ? $w.offset().left : 0,
-                    wt = $w.scrollTop() + wo,
-                    wlt = $w.scrollLeft() + wlo,
+                    wt = $w.scrollTop(),
+                    wlt = $w.scrollLeft(),
                     wb = wt + $w.height(),
                     wlb = wlt + $w.width(),
                     et = $e.offset().top,
@@ -50,4 +48,4 @@
         reviewElement();
         return this;
     };
-})(window.jQuery || window.Zepto); 
+})(window.jQuery || window.Zepto);
